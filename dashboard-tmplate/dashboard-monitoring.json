@@ -1,0 +1,219 @@
+{
+    "lenses": {
+        "0": {
+            "order": 0,
+            "parts": {
+                "0": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "colSpan": 2,
+                        "rowSpan": 2
+                    },
+                    "metadata": {
+                        "inputs": [],
+                        "type": "Extension/HubsExtension/PartType/ClockPart",
+                        "settings": {}
+                    }
+                },
+                "1": {
+                    "position": {
+                        "x": 2,
+                        "y": 0,
+                        "colSpan": 5,
+                        "rowSpan": 5
+                    },
+                    "metadata": {
+                        "inputs": [
+                            {
+                                "name": "partTitle",
+                                "value": "${query_name}",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "query",
+                                "value": "${query_string}",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "chartType",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "isShared",
+                                "value": true,
+                                "isOptional": true
+                            },
+                            {
+                                "name": "queryId",
+                                "value": "${query_id}",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "formatResults",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "queryScope",
+                                "isOptional": true
+                            }
+                        ],
+                        "type": "Extension/HubsExtension/PartType/ArgQueryGridTile",
+                        "settings": {}
+                    }
+                },
+                "2": {
+                    "position": {
+                        "x": 7,
+                        "y": 0,
+                        "colSpan": 6,
+                        "rowSpan": 5
+                    },
+                    "metadata": {
+                        "inputs": [
+                            {
+                                "name": "partTitle",
+                                "value": "${query_name}",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "query",
+                                "value": "${query_string}",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "chartType",
+                                "value": 2,
+                                "isOptional": true
+                            },
+                            {
+                                "name": "isShared",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "queryId",
+                                "value": "${query_id}",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "formatResults",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "queryScope",
+                                "isOptional": true
+                            }
+                        ],
+                        "type": "Extension/HubsExtension/PartType/ArgQueryChartTile",
+                        "settings": {}
+                    }
+                },
+                "3": {
+                    "position": {
+                        "x": 2,
+                        "y": 5,
+                        "colSpan": 5,
+                        "rowSpan": 5
+                    },
+                    "metadata": {
+                        "inputs": [
+                            {
+                                "name": "partTitle",
+                                "value": "${vnet_peering_query_name}",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "query",
+                                "value": "${vnet_peering_query_string}",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "chartType",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "isShared",
+                                "value": true,
+                                "isOptional": true
+                            },
+                            {
+                                "name": "queryId",
+                                "value": "${vnet_peering_query_id}",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "formatResults",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "queryScope",
+                                "isOptional": true
+                            }
+                        ],
+                        "type": "Extension/HubsExtension/PartType/ArgQueryGridTile",
+                        "settings": {}
+                    }
+                },
+                "4": {
+                    "position": {
+                        "x": 7,
+                        "y": 5,
+                        "colSpan": 6,
+                        "rowSpan": 5
+                    },
+                    "metadata": {
+                        "inputs": [
+                            {
+                                "name": "partTitle",
+                                "value": "${vnet_peering_chart_query_name}",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "query",
+                                "value": "${vnet_peering_chart_query_string}",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "chartType",
+                                "value": 2,
+                                "isOptional": true
+                            },
+                            {
+                                "name": "isShared",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "queryId",
+                                "value": "${vnet_peering_chart_query_id}",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "formatResults",
+                                "isOptional": true
+                            },
+                            {
+                                "name": "queryScope",
+                                "isOptional": true
+                            }
+                        ],
+                        "type": "Extension/HubsExtension/PartType/ArgQueryChartTile",
+                        "settings": {}
+                    }
+                }
+            }
+        }
+    },
+    "metadata": {
+        "model": {
+            "timeRange": {
+                "value": {
+                    "relative": {
+                        "duration": 24,
+                        "timeUnit": 1
+                    }
+                },
+                "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+            }
+        }
+    }
+}
